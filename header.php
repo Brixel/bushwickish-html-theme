@@ -31,7 +31,7 @@
 
 		<style>
 			.sidebar {
-				background: url("img/sidebar-bg2.jpg") center no-repeat;
+				background: url("img/ohm-sidebar-bg.jpg") center no-repeat;
 				background-size: cover;
 				color: white;
 				text-shadow: 0px 1px 5px rgba(0,0,0,0.3);
@@ -64,7 +64,7 @@
 
 		<div class="sidebar">
 			<nav class="grid 1of1 sidebar-nav">
-				<a href="http://brixel.be" class="home current">HOME</a>
+				<a href="http://brixel.be" class="home current">BRIXEL | HACKERSPACE HASSELT</a>
 
 				<a href="http://wiki.brixel.be" class="" title="Brixel Wiki">WIKI</a>
 				<a href="https://github.com/Brixel/" class="" title="Brixel Github">GITHUB</a>
