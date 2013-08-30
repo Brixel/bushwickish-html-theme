@@ -73,13 +73,13 @@
 				<a href="#%TODO%" class="" title="Brixel Contact">CONTACT</a>
 
 
-				<a href="#menu" class="menu icon">M</a>
+				<!--<a href="#menu" class="menu icon">M</a>-->
 			</nav>
 
 			<div class="container">
 				
 				<div class="grid 1of1 sidebar-content force-grid">
-				<!-- Article	<h1>Article 1</h1>
+				<!-- SIDEBAR TEXT	<h1>Article 1</h1>
 					<p class="grid 3of4 stick-to-grid remove-padding">
 						Wouter Vandenneucker<br />
 						Vrijdag 30 Augustus 15:31
@@ -119,7 +119,7 @@
 					</aside>
 
 					<div class="grid 1of1 ralign">
-						<a href="#menu" class="menu icon">M</a>
+						<!--<a href="#menu" class="menu icon">M</a>-->
 					</div>
 
 				</div>
@@ -144,7 +144,7 @@
 						<a href="#%TODO%" class="" title="Brixel Contact">CONTACT</a>
 
 
-						<a href="#menu" class="menu icon">M</a>
+						<!--<a href="#menu" class="menu icon">M</a>-->
 					</nav>
 				</div>
 			</header>

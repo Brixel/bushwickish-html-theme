@@ -1,9 +1,9 @@
-<?php theme_include('header'); ?>
+<?php include('header.php'); ?>
 
 		<section class="grid 1of1 content">
-			<h1><?php echo page_title(); ?></h1>
+			<h1>Page Title</h1>
 
-			<?php echo page_content(); ?>
+			Page Content
 		</section>
 
-<?php theme_include('footer'); ?>
+<?php include('footer.php'); ?>

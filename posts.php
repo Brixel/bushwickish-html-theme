@@ -1,25 +1,24 @@
-<?php theme_include('header'); ?>
+<?php include('header.php'); ?>
 
 <section class="grid 1of1 content">
 
-	<?php if(has_posts()): ?>
 		<ul class="items">
-			<?php posts(); ?>
 			<li>
 				<article class="latest-article-preview">
 					<h1>
-						<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
+						<a href="" title="">Latest Article Title</a>
 					</h1>
 
 					<p class="content">
-						<?php echo strip_tags(substr(article_markdown(), 0, 400)); ?>&hellip;
+						<?php echo "this is the markdown"; ?>
+						
 					</p>
 
-					<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>" class="buttonlink">Read More</a>
+					<a href="" title="" class="buttonlink">Read More</a>
 
 					<footer>
 						<small>
-							Posted <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.
+							Posted <time datetime="dateTime">dateTime</time> by Author.
 						</small>
 					</footer>
 				</article>
@@ -27,41 +26,29 @@
 
 			<hr />
 
-			<?php $i = 0; while(posts()): ?>
+			<!-- ALL THE POSTS -->
 			<li>
 				<article class="article-preview force-grid">
 					<div class="grid 2of3 stick-to-grid remove-padding">
 						<h3 class="remove-bottom">
-							<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
+							<a href="" title="">Article Title</a>
 						</h3>
 
 						<footer>
 							<small>
-								Posted <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.
+								Posted <time datetime="">DateTime</time> by Author.
 							</small>
 						</footer>
 					</div>
 					<div class="grid 1of3 stick-to-grid remove-padding center">
-						<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>" class="buttonlink">Read</a>
+						<a href="" title="" class="buttonlink">Read</a>
 					</div>
 				</article>
 			</li>
-			<?php endwhile; ?>
+			<!-- End loop -->
 		</ul>
 
-		<?php if(has_pagination()): ?>
-		<nav class="pagination">
-			<div class="wrap">
-				<?php echo posts_prev(); ?>
-				<?php echo posts_next(); ?>
-			</div>
-		</nav>
-		<?php endif; ?>
-
-	<?php else: ?>
-		<p>Looks like you have some writing to do!</p>
-	<?php endif; ?>
 
 </section>
 
-<?php theme_include('footer'); ?>
+<?php include('footer.php'); ?>

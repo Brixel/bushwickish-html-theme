@@ -68,7 +68,7 @@
 					}
 
 					if (!src.substring(0,4).match('http') && !src.substring(0,5).match('https') && !src.substring(0,2).match('//')) {
-						act.attr('src', '<?php echo base_url(); ?>content/' + src);
+						act.attr('src', 'http://brixel.be/content/' + src);
 					}
 				});
 	    	});
