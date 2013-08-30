@@ -10,7 +10,7 @@
 	                		</p>
 	                		<p>
 		                		Built with <a href="http://melodycss.co" target="_blank">Melody</a><br />
-		                		Powered by <a href="http://anchorcms.com" target="_blank">Anchor CMS</a>
+		                		Used to be Powered by <a href="http://anchorcms.com" target="_blank">Anchor CMS</a>
 	                		</p>
 	                	</small>
 	                </div>
@@ -18,14 +18,11 @@
 					<div class="grid 1of3 offset-4">
 						<small>
 			                <ul role="navigation">
-			                    <li><a href="<?php echo rss_url(); ?>">RSS</a></li>
-			                    <?php if(twitter_account()): ?>
-			                    <li><a href="<?php echo twitter_url(); ?>" target="_blank">@<?php echo twitter_account(); ?></a></li>
-			                    <?php endif; ?>
+			                    <li><a href="%TODO%">RSS</a></li>
 
-			                    <li><a href="<?php echo base_url('admin'); ?>" title="Administer your site!">Admin area</a></li>
+			                    <li><a href="http://wiki.brixel.be" title="Administer your site!">Admin area</a></li>
 
-			                    <li><a href="<?php echo base_url(); ?>" title="Return to my website.">Home</a></li>
+			                    <li><a href="http://brixel.be" title="Return to my website.">Home</a></li>
 			                </ul>
 			            </small>
 	        		</div>

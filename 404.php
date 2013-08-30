@@ -1,9 +1,9 @@
-<?php theme_include('header'); ?>
+<?php include('header.php'); ?>
 
 	<section class="grid 1of1 content wrap">
-		<h1>Aww, I lost it :(</h1>
+		<h1>Aww, we kunnen hem niet vinden :(</h1>
 
-		<p>Unfortunately, the page <code>/<?php echo current_url(); ?></code> could not be found. Your best bet is either to try the <a href="<?php echo base_url(); ?>">homepage</a>, try <a href="#search">searching</a>, or go and cry in a corner (although I don’t recommend the latter).</p>
+		<p>Spijtig genoeg, kan de pagina <code>/<?php echo current_url(); ?></code> niet gevonden worden. De beste manier te vinden wat je zoekt, is via onze <a href="http://brixel.be">homepage</a>, probeer te <a href="#search">zoeken</a>, of ga wenen in een hoekje (alhoewel we die laatste niet echt aanraden).</p>
 	</section>
 
-<?php theme_include('footer'); ?>
+<?php include('footer.php'); ?>
