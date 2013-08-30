@@ -1,10 +1,10 @@
 /*
 	# COLORS
-	Red: #F06060
-	Pink: #C38596
-	Cream: #F7F2CB
-	Plum: #774553
-	Blue: #68ADC3
+	Red: #F06060 // Errors?
+	Brightest: #1d98c1 //Current & title
+	Cream: #F7F2CB //sidebar Home Button
+	Darkest: #3c6470 //Link
+	Blue: #68ADC3 //Hover
 */
 
 html, body {
@@ -31,7 +31,7 @@ a, a:visited {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
-	color: #774553;
+	color: #3c6470;
 	font-family: "Aleo";
 }
 
@@ -39,7 +39,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a,
 h1 > a:visited, h2 > a:visited, h3 > a:visited, h4 > a:visited, h5 > a:visited, h6 > a:visited,
 a > h1, a > h2, a > h3, a > h4, a > h5, a > h6,
 a:visited > h1, a:visited > h2, a:visited > h3, a:visited > h4, a:visited > h5, a:visited > h6 {
-	color: #C38596;
+	color: #1d98c1;
 	font-weight: 900;
 }
 
@@ -161,7 +161,7 @@ section.content {
 			top: 0px;
 			left: 0px;
 			z-index: 999;
-			background: #774553;
+			background: #3c6470;
 			color: white;
 		}
 		.slidey a {
@@ -199,7 +199,7 @@ section.content {
 		border: 1px solid rgba(51,71,61,0.1);
 	}
 	#search button[type="submit"] {
-		background: #C38596;
+		background: #1d98c1;
 	}
 	#search button[type="submit"]:hover {
 		background: #68ADC3;
@@ -209,7 +209,7 @@ nav.top-nav a {
 	font-family: "Lato", "proxima-nova", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #774553;
+	color: #3c6470;
 	margin-right: 1.5em;
 	padding-bottom: .25em;
 	margin-bottom: .75em;
@@ -219,13 +219,13 @@ nav.top-nav a {
 	border-bottom: 5px solid transparent;
 }
 	nav.top-nav a:not(.menu):hover {
-		border-bottom: 5px solid #C38596;
+		border-bottom: 5px solid #1d98c1;
 	}
 	nav.sidebar-nav a:not(.menu):hover {
 		border-bottom: 5px solid white;
 	}
 	nav.top-nav a.current, nav.top-nav a.menu:hover {
-		color: #C38596;
+		color: #1d98c1;
 	}
 	nav a.menu {
 		float: right;
@@ -261,13 +261,13 @@ aside.tldr p {
 		font-family: "Lato", "proxima-nova", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 		font-style: normal;
 		font-weight: 900;
-		color: #C38596;
+		color: #1d98c1;
 		white-space: nowrap;
 		padding-top: .1em;
 	}
 
 a.buttonlink, a[title="pdf"], a[title="file"], a[title="audio"], a[title="button"], button {
-	background: #774553;
+	background: #3c6470;
 	padding: .25em 1.5em .3em;
 	border-radius: 3px;
 	font-family: "Lato", "proxima-nova", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -343,22 +343,22 @@ section.content ul:not(.items):not(.commentlist) li {
 
 section.content ul:not(.items):not(.commentlist) li:before {
     content: "• ";
-    color: #C38596; /* or whatever color you prefer */
+    color: #1d98c1; /* or whatever color you prefer */
 }
 /*section.content ul {
 	list-style: circle inside;
-	list-style-color: #774553;
+	list-style-color: #3c6470;
 }*/
 
 section.content ol {
 	list-style: lower-roman outside;
-	list-style-color: #774553;
+	list-style-color: #3c6470;
 	margin-left: 3em;
 }
 
 section.content ol li {
 	font-family: "Lato", "proxima-nova", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	color: #C38596;
+	color: #1d98c1;
 	font-size: .75em;
 	font-weight: 700;
 }
@@ -375,7 +375,7 @@ section.content blockquote {
 	font-style: italic;
 	color: rgba(51,71,61,0.5);
 	padding-left: 1.5em;
-	border-left: 5px solid #C38596;
+	border-left: 5px solid #1d98c1;
 }
 
 section.content .image-wrapper {
@@ -446,7 +446,7 @@ pre {
 	margin-bottom: 1.5em;
 	white-space: pre-wrap;
 	display: block;
-	color: #774553;
+	color: #3c6470;
 	padding: .75em 1.5em;
 	border-radius: 3px;
 }
