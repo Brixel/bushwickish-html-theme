@@ -5,7 +5,7 @@
 	                <div class="grid 1of3">
 	                	<small>
 	                		<p>
-		                		&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?>.<br />
+		                		&copy; brixel.be.<br />
 		                		All rights reserved.
 	                		</p>
 	                		<p>
@@ -30,7 +30,7 @@
             </footer>
         </div>
 
-	    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	    <script>
 	    	jQuery(document).ready(function($) {
 	    		if($('nav .latest-post').hasClass('current')) {
@@ -71,7 +71,23 @@
 						act.attr('src', 'http://brixel.be/content/' + src);
 					}
 				});
+
+
+
+			$(".answer, article.sticky p").css({"display":"none"});
+
 	    	});
+		
+		$("article.sticky .buttonlink").click(function(event){
+			event.preventDefault();
+			$(this).parent().parent().children("p").slideToggle();
+		});
+		$(".items .question").click(function(){
+			trigger = "#" + $(this).attr("triggerfor");
+			$(trigger).slideToggle();
+
+		});
+
 	    </script>
 
 		<!--[if lt IE 9]>
