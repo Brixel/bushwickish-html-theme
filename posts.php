@@ -6,37 +6,6 @@
 <section class="grid 1of1 content">
 
 		<ul class="items">
-			<li>
-				<article class="latest-article-preview">
-					<h1>
-						<a href="#welcome" title="Welkom">Welkom</a>
-					</h1>
-
-					<p class="content">
-						Wanneer je voor het eerst op deze pagina komt, dan bestaat de kans dat je niet weet wat een hackerspace nu eigenlijk is. De kans is dan ook groot dat er enkele misverstanden zullen zijn. Dus laten we duidelijk zijn.	
-					</p>
-
-					<h3 triggerfor="wat" class="question">Wat is een Hackerspace?</h3>
-					<p id="wat" class="content answer">
-						Het is een locatie waar gelijkgestemden kunnen samenwerken aan projecten. Vaak zijn dit electronica, informatica of gewoon kunstzinnige experimenten. Al dit experimenteren, of liever gezegd, hacken heeft maar één doel: de hackerspace upgraden tot een plaats die inspireert om nog leukere dingen te maken. Een locatie is 1 kant van het verhaal, aan de andere kant zijn er de leden en bezoekers, de échte bron van ideeën en kennis.
-					</p>
-					<h3 triggerfor="voorwie" class="question">Voor wie is de Hackerspace?</h3>
-					<p id="voorwie" class="content answer">
-						Eigenlijk is iedereen welkom! Heb je een vraag? Een idee? Wil je de sfeer eens komen opsnuiven? Kom gerust langs!
-					</p>
-<!--
-					<a href="" title="" class="buttonlink">Read More</a>
-
-					<footer>
-						<small>
-							Gepost op <time datetime="dateTime">vrijdag 30 augustus</time> door Brixel.
-						</small>
-					</footer>-->
-				</article>
-
-			</li>
-
-			<hr />
 <!-- START STICKIES -->
 
 <li>
@@ -64,6 +33,45 @@
 			</li>
 
 <!-- END STICKIES -->
+			<hr />
+			<li>
+				<article class="latest-article-preview">
+					<h1>
+						<a href="#welcome" title="Welkom">Welkom</a>
+					</h1>
+
+					<p class="content">
+						Wanneer je voor het eerst op deze pagina komt, dan bestaat de kans dat je niet weet wat een hackerspace nu eigenlijk is. De kans is dan ook groot dat er enkele misverstanden zullen zijn. Dus laten we duidelijk zijn.	
+					</p>
+
+					<h3 triggerfor="wat" class="question">Wat is een Hackerspace?</h3>
+					<p id="wat" class="content answer">
+						Het is een locatie waar gelijkgestemden kunnen samenwerken aan projecten. Vaak zijn dit electronica, informatica of gewoon kunstzinnige experimenten. Al dit experimenteren, of liever gezegd, hacken heeft maar één doel: de hackerspace upgraden tot een plaats die inspireert om nog leukere dingen te maken. Een locatie is 1 kant van het verhaal, aan de andere kant zijn er de leden en bezoekers, de échte bron van ideeën en kennis.
+					</p>
+					<h3 triggerfor="voorwie" class="question">Voor wie is de Hackerspace?</h3>
+					<p id="voorwie" class="content answer">
+						Eigenlijk is iedereen welkom! Heb je een vraag? Een idee? Wil je de sfeer eens komen opsnuiven? Kom gerust langs!
+					</p>
+					<h3 triggerfor="wanneer" class="question">Wanneer komen jullie samen?</h3>
+					<p id="wanneer" class="content answer">
+						Zolang we geen echte locatie hebben voor onze space, houden we onze wekelijkse meetings in Kermeta. Deze meetings starten om 20h, iedere dinsdag. Kom gerust langs! Je bent meer dan welkom!<br /><br />
+						<i><b>Opgelet:</b> Tijdens de zomermaanden houden we onze weeklijkse meetings in 'Het Hooghuis', Lombaardstraat 6, in Hasselt. De timing wordt steeds meegegeven op onze Mailinglist.</i>
+					</p>
+					<h3 triggerfor="wanneer-nog" class="question">Andere Evenementen?</h3>
+					<p id="wanneer-nog" class="content answer">
+						Zeker! Zo nu en dan organiseren we eens een DevWeekend of een Workshopdag. Meer info over komende evenementen vind je <a href="http://wiki.hsha.be/index.php/Main_Page">hier</a>.
+					</p>
+<!--
+					<a href="" title="" class="buttonlink">Read More</a>
+
+					<footer>
+						<small>
+							Gepost op <time datetime="dateTime">vrijdag 30 augustus</time> door Brixel.
+						</small>
+					</footer>-->
+				</article>
+
+			</li>
 
 
 

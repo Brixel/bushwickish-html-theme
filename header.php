@@ -63,6 +63,7 @@
 	<body>
 
 		<div class="sidebar">
+			
 			<nav class="grid 1of1 sidebar-nav">
 				<a href="http://brixel.be" class="home current">BRIXEL | HACKERSPACE HASSELT</a>
 
@@ -76,9 +77,10 @@
 				<!--<a href="#menu" class="menu icon">M</a>-->
 			</nav>
 
+
 			<div class="container">
 				
-				<div class="grid 1of1 sidebar-content force-grid">
+				<div class="grid 1of1 sidebar-content force-grid"">
 				<!-- SIDEBAR TEXT	<h1>Article 1</h1>
 					<p class="grid 3of4 stick-to-grid remove-padding">
 						Wouter Vandenneucker<br />
